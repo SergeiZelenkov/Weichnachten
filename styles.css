@@ -1,0 +1,223 @@
+/* Общий фон */
+body {
+   background-color: black;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ /* Контейнер для ёлки */
+     .wrapper {
+       position: relative;
+       width: 50%;
+       margin: 0 auto;
+       border: 1px solid;
+       top: 100px;
+     }
+ 
+     .baum {
+       width: 100%;
+       display: block;
+       height: auto;
+     }
+ 
+     .button {
+       position: absolute;
+       width: 6%;
+       height: 6%;
+       border-radius: 50%;
+       border: none;
+       cursor: pointer;
+       opacity: 0.75;
+     }
+ 
+     #null {
+       top: 10%;
+       left: 51.5%;
+       background-color: #ff7a7a38;
+       transform: translateX(-50%);
+     }
+ 
+     #ein {
+       top: 24%;
+       left: 48%;
+       background-color: #e22b92;
+     }
+ 
+     #zwei {
+       top: 40%;
+       left: 41%;
+       background-color: #e22b2bf7;
+     }
+ 
+     #drei {
+       top: 42%;
+       left: 56%;
+       background-color: #532be2fa;
+     }
+ 
+     #vier {
+       top: 58%;
+       left: 27%;
+       background-color: #e2df2bfa;
+     }
+ 
+     #fünf {
+       top: 61%;
+       left: 47%;
+       background-color: #2b8ce2;
+     }
+ 
+     #sechs {
+       top: 62%;
+       left: 69%;
+       background-color: #2b2ee2f7;
+     }
+ 
+     #sieben {
+       top: 71%;
+       left: 43%;
+       background-color: #64e22b;
+     }
+ 
+ .grinch-wrapper {
+   position: absolute;
+   top: -6%;
+   left: 33%; 
+ }
+ 
+ .cindy-wrapper {
+   position: absolute;
+   top: 0%;
+   left: 25%;
+ }
+ 
+ 
+ .grinch {
+   width: 50%;
+   height: auto;
+   opacity: 1;
+   transition: opacity 0.3s ease-in-out;
+ }
+ 
+ .cindy {
+  width: 823px;
+   height: 900px;
+   opacity: 1;
+   transition: opacity 11.8s ease-in-out;
+ }
+ 
+ .hide-grinch {
+   display: none;
+ }
+ 
+ .hide-cindy {
+   display: none;
+ }
+ 
+ .total-cindy {
+   color: #f59be6;
+   font-size: 200px;
+   font-weight: bold;
+   position: absolute;
+   top: 80px;
+   left: 100px;
+   font-family: Comic Sans MS;
+ }
+ 
+ .total-grinch {
+   color: #11bd24;
+   font-size: 200px;
+   font-weight: bold;
+   position: absolute;
+   top: 80px;
+   right: 100px;
+   font-family: Comic Sans MS;
+ }
+ 
+ .madeira-wrapper {
+   display: block;
+   position: absolute;
+   top: 0px;
+   width: 100%;
+ }
+ 
+ 
+ 
+ .madeira-wrapper {
+   display: block;
+   position: absolute;
+   top: 0px;
+   width: 100%;
+ }
+ .madeira-hide {
+ display: none;
+ }
+ 
+ .madeira-img {
+     opacity: 0; 
+     transform: scale(0.9); 
+     transition: opacity 15s ease, transform 15s ease;  
+     width: 100%;
+     height: auto;
+ }
+ 
+ .madeira-img.loaded {
+     opacity: 1; 
+     transform: scale(1);
+ }
+ 
+   .lost-wrapper {
+   display: block;
+   position: absolute;
+   top: 0px;
+   width: 100%;
+ }
+ .lost-hide {
+ display: none;
+ }
+ 
+ .lost-img {
+     opacity: 0; 
+     transform: scale(0.9); 
+     transition: opacity 15s ease, transform 15s ease;  
+     width: 100%;
+     height: auto;
+ }
+ 
+ .lost-img.loaded {
+     opacity: 1; 
+     transform: scale(1);
+ }
+ 
+ .hide-title-grinch {
+   display: none;
+ }
+ 
+ .grinch-title {
+   display: block;
+   width: 100%;
+   position: absolute;
+   top: 0px;
+   z-index: 999;
+ }
+ 
+ .grinch-title-img {  
+   width: 100%;
+   display: block;
+ }
+ 
+ .button-grinch-title {
+   position: absolute;
+   top: 13%;
+   left: 3%;
+   height: 10%;
+   background-color: red;
+   width: 15%;
+   border: none;
+   border-radius: 10px;
+   font-size: 100%;
+   font-family: serif;
+   font-weight: bold;
+   color: white;
+   opacity: 0.75;
+ }
